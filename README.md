@@ -29,3 +29,22 @@ pickle_out.close()
 First, importpickle to use it, then define an exampke dictionary which is a pyhton object. Next open a file ( note that we open to write bytes in Python 3+), then we use pickle.dump() to put the dict into opened file, then close.
 The above code will save the pickle file for us, now we need to cover how to access the pickled file:
 ![image](https://user-images.githubusercontent.com/94755079/144726339-776d67d9-1313-4c6a-ba8a-a27d97081bce.png)
+
+
+pickle_in = open("dict.pickle","rb")
+example_dict = pickle.load(pickle_in)
+open the pickle file, use pickle.load() to load it to a var.
+
+print(example_dict)
+print(example_dict[3])
+This shows that we have retabined the dict data-type.
+https://pythonprogramming.net/python-pickle-module-save-objects-serialization/.  ( External site).
+
+Create a new sub-folder called Assignment07 inside the _PythonClass folder
+
+![image](https://user-images.githubusercontent.com/94755079/144726353-145842a7-ae3a-467c-845b-add47feb77f0.png)
+
+Create a new project in PyCharm that uses the _PythonClass\Assignment07 folder as its location 
+ 
+![image](https://user-images.githubusercontent.com/94755079/144726355-08291265-c706-4c5c-a8e2-1098ac957f48.png)
+
