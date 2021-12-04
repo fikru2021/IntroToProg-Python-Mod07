@@ -48,3 +48,10 @@ Create a new project in PyCharm that uses the _PythonClass\Assignment07 folder a
  
 ![image](https://user-images.githubusercontent.com/94755079/144726355-08291265-c706-4c5c-a8e2-1098ac957f48.png)
 
+Fig 2. Showing a new project in Pychram in the right folder 
+Create a file called, "Assigment07.py," in your project.
+
+ 
+Fig3. Showing Assignment07.py in the right folder 
+![image](https://user-images.githubusercontent.com/94755079/144726367-eb530994-d68c-4485-bd5d-fab89974a9b3.png)
+
