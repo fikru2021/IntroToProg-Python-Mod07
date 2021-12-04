@@ -54,4 +54,23 @@ Create a file called, "Assigment07.py," in your project.
  
 Fig3. Showing Assignment07.py in the right folder 
 ![image](https://user-images.githubusercontent.com/94755079/144726367-eb530994-d68c-4485-bd5d-fab89974a9b3.png)
+Add code to your script that performs the assignment’s task. Don't forget to include the script's header.
+-	Step 1: Import pickle from another code file 
+ ’
+-	Fig4.1 Showing code to import pickle 
+-	Step 2: Pickling demo
+ 
+-	Fig 4.2. Showing pickling demo 
+-	Step 3: Store the data using the pickle.dump method
+-	 
+-	Fig 4.3. Showing a code that is used to store data using pickle.dump method
+-	Step 4: Read the data back using the picke load method
+![image](https://user-images.githubusercontent.com/94755079/144726385-919521da-1fb6-4a87-8183-00e5e4214834.png)
 
+![image](https://user-images.githubusercontent.com/94755079/144726392-ddd71a93-62cb-4377-af8c-e2e20fedea06.png)
+-	Step 5: Error handling 
+
+![image](https://user-images.githubusercontent.com/94755079/144726400-7769de7a-8a32-4229-b547-d349a54adc05.png)
+
+![Uploading image.png…]()
+![Uploading image.png…]()
