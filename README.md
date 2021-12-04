@@ -72,5 +72,16 @@ Add code to your script that performs the assignment’s task. Don't forget to i
 
 ![image](https://user-images.githubusercontent.com/94755079/144726400-7769de7a-8a32-4229-b547-d349a54adc05.png)
 
+![image](https://user-images.githubusercontent.com/94755079/144726417-d1be4b08-c316-4272-b681-d5d624d60f93.png)
+![image](https://user-images.githubusercontent.com/94755079/144726425-13c3eb94-9399-4429-9143-501bdf89ea53.png)
+
+Run the script in BOTH PyCharm and an OS command/shell window and capture images of it working on your computer![image](https://user-images.githubusercontent.com/94755079/144726431-25ba9a11-6e0f-4c53-829b-b0bc3ed745f8.png)
+![image](https://user-images.githubusercontent.com/94755079/144726439-45228f67-2eb4-4a03-97ce-c5edb065b3e0.png)
+
 ![Uploading image.png…]()
+Summary
+In general, working on this assignment, , I have learned about about exception handling and Python’s pickling module, and how you use them.
 ![Uploading image.png…]()
+
+
+
