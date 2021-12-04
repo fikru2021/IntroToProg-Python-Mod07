@@ -1,6 +1,6 @@
 # IntroToProg-Python-Mod07
 
-1) Exception Handling in Python
+1) Exception Handling in Python:
 Python Try Except: The try block lets you test a block of code for errors, where as the except block lets you handle the error. The finally block lets you execute code, regardless of the result of the try- and except blocks. When an error occurs, or exception as we call it , python will normally stop and generate an error message. Exceptions can be handled using the try statement:
 For example: In this code below, the try block will generate an exception , because x is not defined:
 try:
