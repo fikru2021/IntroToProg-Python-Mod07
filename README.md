@@ -22,4 +22,99 @@ pickle_out = open("dict.pickle","wb")
 pickle.dump(example_dict, pickle_out)
 pickle_out.close()
 
-![image](https://user-images.githubusercontent.com/94755079/145696350-5a0b1f35-46f3-4271-806d-f9b71addafcc.png)
+First, importpickle to use it, then define an exampke dictionary which is a pyhton object. Next open a file ( note that we open to write bytes in Python 3+), then we use pickle.dump() to put the dict into opened file, then close.
+The above code will save the pickle file for us, now we need to cover how to access the pickled file:
+
+pickle_in = open("dict.pickle","rb")
+example_dict = pickle.load(pickle_in)
+open the pickle file, use pickle.load() to load it to a var.
+
+print(example_dict)
+print(example_dict[3])
+This shows that we have retabined the dict data-type.
+https://pythonprogramming.net/python-pickle-module-save-objects-serialization/.  ( External site).
+
+Create a new sub-folder called Assignment07 inside the _PythonClass folder
+
+ 
+Fig 1. Showing folder location for assignment 7
+
+
+
+
+
+
+
+Create a new project in PyCharm that uses the _PythonClass\Assignment07 folder as its location 
+ 
+Fig 2. Showing a new project in Pychram in the right folder 
+Create a file called, "Assigment07.py," in your project.
+
+ 
+Fig3. Showing Assignment07.py in the right folder 
+
+
+
+
+
+
+
+
+Add code to your script that performs the assignment’s task. Don't forget to include the script's header.
+-	Step 1: Import pickle from another code file 
+ ’
+-	Fig4.1 Showing code to import pickle 
+-	Step 2: Pickling demo
+ 
+-	Fig 4.2. Showing pickling demo 
+-	Step 3: Store the data using the pickle.dump method
+-	 
+-	Fig 4.3. Showing a code that is used to store data using pickle.dump method
+-	Step 4: Read the data back using the picke load method
+-	 
+-	Fig 4.4 showing code to read a data back using the pickle load method
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-	Step 5: Error handling 
+
+-	 
+Fig 5. Showing the error handling demo
+Run the script in BOTH PyCharm and an OS command/shell window and capture images of it working on your computer
+ 
+Fig6. Showing the program running in PyChram
+ 
+Fig7. Showing the program using IDLE 
+
+Verify that it worked, by locating the binary file and opening it in a text editor. The file should be in the same folder as your script when you used the correct, relative file path!
+ 
+Note: I see there Appdata.dat file in the folder but no data is loaded to it, could not figure out why.
+
+Summary
+In general, working on this assignment, , I have learned about about exception handling and Python’s pickling module, and how you use them.
+
+
+
+
+![image](https://user-images.githubusercontent.com/94755079/145698535-03e5db1f-4b55-4705-8fa9-44564de15661.png)
